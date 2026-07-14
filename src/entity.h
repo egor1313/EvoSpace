@@ -3,13 +3,13 @@
 #define __ENTITY_H__
 
 #include "mind.h"
-#include "objects.h"
+#include "object.h"
 
 class Entity : Object {
 protected:
-  double energy_{0.0};
-  double power_of_engine_{0.0};
-  double eye_power_{0.0};
+  float energy_{0.0};
+  float power_of_engine_{0.0};
+  float eye_power_{0.0};
 
 public:
 };

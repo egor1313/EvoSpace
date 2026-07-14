@@ -7,12 +7,12 @@ class Layer {
 protected:
   int layer_size_{0};
   int input_size_{0};
-  int output_size_{0};
   std::vector<Neuron> layer_;
 
 public:
-  Layer(int input_size_, int output_size_);
-  std::vector<float> feed_forward(std::vector<float> &input);
+  Layer(int input_size, int neuron_count);
+  std::vector<float> feed_forward(const std::vector<float> &input) const;
+  int get_input_size() const;
 };
 
 #endif

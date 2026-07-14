@@ -6,13 +6,12 @@ class Neuron {
 protected:
   int input_size_{0};
   std::vector<float> weights_;
-  float output_{0.0};
 
 public:
-  Neuron(int input_size_, std::vector<float> &weights);
+  Neuron(int input_size);
+  Neuron(int input_size, std::vector<float> &weights);
   void rand_weight(float minW, float maxW);
-  float feed_forward(std::vector<float> &input);
-  float getOutput() const;
+  float feed_forward(const std::vector<float> &input) const;
 };
 
 #endif
