@@ -1,3 +1,5 @@
 /home/uny/Coding/EvoSpace/build/CMakeFiles/app.dir
 /home/uny/Coding/EvoSpace/build/CMakeFiles/edit_cache.dir
 /home/uny/Coding/EvoSpace/build/CMakeFiles/rebuild_cache.dir
+/home/uny/Coding/EvoSpace/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/home/uny/Coding/EvoSpace/build/_deps/json-build/CMakeFiles/rebuild_cache.dir

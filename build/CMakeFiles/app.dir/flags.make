@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/uny/Coding/EvoSpace/build/_deps/json-src/include
 
 CXX_FLAGS = 
 

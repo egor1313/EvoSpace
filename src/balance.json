@@ -1,0 +1,10 @@
+{
+  "kStandartMutationForce": 0.5,
+  "kStandartPowerOfEngine": 0.5,
+  "kStandartEyePower": 0.5,
+  "kStandartAngle": 0,
+  "kStandartEnergy": 100.0,
+  "kStandartLifeTime":  100,
+  "kStandartBirthNeedEnergy": 10.0
+
+}
