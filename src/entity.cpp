@@ -24,3 +24,7 @@ Entity Entity::get_birth(const Entity &second_parrent) const {
 }
 
 void Entity::mutate(float force) {}
+
+void Entity::do_impulse(double force) {
+  force = gen_.get_params().power_of_engine;
+}

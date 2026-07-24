@@ -10,6 +10,7 @@ protected:
   std::vector<Neuron> layer_;
 
 public:
+  Layer() = default;
   Layer(int input_size, int neuron_count);
   std::vector<float> feed_forward(const std::vector<float> &input) const;
   int get_input_size() const;

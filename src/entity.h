@@ -23,7 +23,7 @@ public:
   Entity get_birth(const Entity &second_parrent) const;
   float get_energy() const;
   void mutate(float force = Config::Balance::Get().kStandartMutationForce);
-  void do_impulse(double force = gen_.get_params().power_of_engine);
+  void do_impulse(double force);
   void rotate(float force);
   void atack_entity(const Entity &attacker);
   void get_atack(const Entity &victim);

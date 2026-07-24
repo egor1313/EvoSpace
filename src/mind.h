@@ -4,9 +4,12 @@
 #include "network.h"
 #include <vector>
 
-class Mind : Network {
+class Mind {
 protected:
+  Network net{};
+
 public:
+  Mind() = default;
   Mind(Genome gen);
   Mind(const std::vector<int> &top);
   Genome &get_mind_genome() const;
